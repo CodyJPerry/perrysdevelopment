@@ -16,7 +16,12 @@ gulp.task('styles', function() {
 
 // Autoprefixer
 gulp.task('prefix', function() {
-    gulp.src()
+    gulp.src('./framwork/sass/**/*.scss')
+        .pipe(autoprefixer({
+            browsers: ['last 2 versions'],
+            cascade: false
+        }))
+        .pipe(gulp.dest('./css/'))
 });
 
 // Watch task
