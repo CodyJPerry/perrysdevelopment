@@ -2882,8 +2882,9 @@ footer.page-footer .footer-copyright {
       -ms-flex-align: center;
           align-items: center;
   padding: 10px 0px;
-  color: rgba(255, 255, 255, 0.8);
+  color: #FF8C3F;
   background-color: rgba(51, 51, 51, 0.08);
+  font-weight: bold;
 }
 
 table, th, td {
@@ -4068,8 +4069,19 @@ nav .brand-logo {
   color: #fff;
   display: inline-block;
   font-size: 2.1rem;
-  padding: 0;
+  padding: 11px 0 0 0;
   white-space: nowrap;
+  width: 75px;
+  height: 75px;
+}
+
+nav .brand-logo span {
+  vertical-align: top; /* Quirky aligns it middle next to logo*/
+  padding-left: 15px;
+  font-family: 'Pacifico', cursive;
+  letter-spacing: 2.5px;
+  color: #11151C;
+  line-height: 90px;
 }
 
 nav .brand-logo.center {
@@ -4137,6 +4149,7 @@ nav ul a {
   display: block;
   padding: 0 15px;
   cursor: pointer;
+  text-transform: uppercase;
 }
 
 nav ul a.btn, nav ul a.btn-large, nav ul a.btn-large, nav ul a.btn-flat, nav ul a.btn-floating {
@@ -4208,9 +4221,10 @@ nav .input-field label.active i {
     min-height: 64px;
   }
   nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
-    height: 90px;
-    line-height: 90px;
+    height: 110px;
+    line-height: 110px;
   }
+
   .navbar-fixed {
     height: 64px;
   }
@@ -4299,6 +4313,8 @@ h2 {
   font-size: 3.56rem;
   line-height: 60%;
   margin: 1.78rem 0 1.424rem 0;
+  font-family: 'Pacifico', cursive;
+  letter-spacing: 1px;
 }
 
 h3 {
@@ -8586,8 +8602,24 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 
 /* Author Custom Styles */
 
-.test-slider {
+.reviews-slider {
   padding-bottom: 0;
   background: #503238;
 }
 
+#services-icon {
+  font-size: 2em;
+}
+
+/* Section styles*/
+
+.section-title {
+  border-left: 4px solid #11151C;
+  padding: 10px;
+}
+
+/* Main copy intro */
+
+.intro {
+  margin-top: 50px;
+}
