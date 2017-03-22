@@ -2161,6 +2161,8 @@ body {
   margin: 0;
   font-size: 1.2rem;
   color: #364156;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 /* HTML5 display definitions
@@ -8597,29 +8599,4 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   .picker--time .picker__box {
     margin-bottom: 5em;
   }
-}
-
-
-/* Author Custom Styles */
-
-.reviews-slider {
-  padding-bottom: 0;
-  background: #503238;
-}
-
-#services-icon {
-  font-size: 2em;
-}
-
-/* Section styles*/
-
-.section-title {
-  border-left: 4px solid #11151C;
-  padding: 10px;
-}
-
-/* Main copy intro */
-
-.intro {
-  margin-top: 50px;
 }
