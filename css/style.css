@@ -6,6 +6,13 @@
  * Made By MaterializeCSS.com
  */
 
+
+ /* Main Styles */
+
+ h5 {
+   font-weight: 500;
+ }
+
 /* Icon styles */
 .icon-block {
   padding: 0 15px;
