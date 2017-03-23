@@ -198,8 +198,7 @@
     </div>
   </div>
 
-<!-- TODO: Add "slick" @ http://kenwheeler.github.io/slick/ for slider-->
-  <!-- Full width Testimonials slider-->
+  <!-- Full referencess slider-->
   <section class="row">
     <div class="col s12 slider center">
       <div>First Panel</div>
@@ -210,36 +209,47 @@
 
   <footer class="page-footer">
     <div class="container">
-      <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">Company Bio</h5>
-          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+      <h2>Let's Work Together</h2>
+       <form action="#">
+         <!-- TODO: Add "Contact Info" Header for section -->
+            <label for="name">Name:</label>
+              <input type="text" placeholder="John Doe">
+              <label for="email">Email:</label>
+                <input type="text" placeholder="user@example.com">
+                <br>
+                <br>
+          <!-- TODO: Add "Project Details Header to section"-->
+                <label>Type of Project</label>
+                   <input list="project" name="myProject">
+                      <datalist id="project"> <!-- Must match project list value -->
+                    <option value="Design">
+                    <option value="Development">
+                    <option value="Hybrid Project">
+                  </datalist>
 
-
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Settings</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Connect</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-      </div>
+                  <!-- Budget-->
+                  <label>Estimated Budget</label>
+                   <input list="budget" name="myBudget">
+                      <datalist id="budget"> <!-- Must match project list value -->
+                    <option value="$0 - $500">
+                    <option value="$501 - $1000">
+                    <option value="$1001 - $2000">
+                    <option value="$2000 - $5000">
+                  </datalist>
+                  <!-- Text area-->
+                  <textarea name="comments" id="comments" cols="30" rows="10" 
+                  placeholder="Please describe your project in as much detail as possible."></textarea>
+                  <br>
+                  <button class="btn-large waves-effect waves-ripple waves-light orange">Submit</button>
+          </form>
+          <hr>
     </div>
+   
+    
     <div class="footer-copyright">
       <div class="container">
-      <p class="center light"><i class="material-icons">copyright</i> Perry's Development 2017. All rights reserved.</p>
+      <p class="center light">
+        <i class="material-icons">copyright</i> Perry's Development 2017. All rights reserved.
       </div>
     </div>
   </footer>
