@@ -13,6 +13,10 @@
    font-weight: 500;
  }
 
+ .logo-text {
+   display: none;
+ }
+
 /* Icon styles */
 .icon-block {
   padding: 0 15px;
@@ -49,3 +53,26 @@
   color: #11151C;
 }
 
+
+/* Media Queries */
+
+@media only screen and (max-width: 1240px) {
+  nav span {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .logo-text {
+    display: block;
+    text-align: center;
+    font-size: 2em;
+  }
+}
+
+@media only screen and (max-width: 601px) {
+  nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+    height: 110px;
+    line-height: 110px;
+  }
+}
