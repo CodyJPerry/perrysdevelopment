@@ -17,12 +17,28 @@
    display: none;
  }
 
+
 /* Icon styles */
 .icon-block {
   padding: 0 15px;
 }
 .icon-block .material-icons {
 	font-size: 2em;
+}
+
+.card-reveal i {
+  padding-left: 35px;
+  vertical-align: bottom;
+}
+
+.social-icons {
+  font-size: 2.5rem;
+  color: #29b6f6;
+  font-family: 'Pacifico', cursive;
+}
+
+.social-icons i {
+  padding-right: 20px;
 }
 
 /* Section styles*/
@@ -53,6 +69,16 @@
   color: #11151C;
 }
 
+/* Footer Styles */
+
+.footer-copyright i {
+  vertical-align: bottom;
+}
+
+.page-footer h2 {
+  color: #29b6f6;
+  line-height: 60px;
+}
 
 /* Media Queries */
 
@@ -67,6 +93,28 @@
     display: block;
     text-align: center;
     font-size: 2em;
+  }
+
+  .header-title {
+   line-height: 47px;
+ }
+
+ h1.header.center.orange-text {
+   margin-top: 0;
+   font-size: 3rem;
+ }
+
+ h2.header.center.orange-text.header-title {
+   font-size: 2.5rem;
+   margin: 10px 0;
+ }
+
+/* Footer Styles */
+ .page-footer h2 {
+  color: #29b6f6;
+  line-height: 60px;
+  font-size: 2.5rem;
+  
   }
 }
 
