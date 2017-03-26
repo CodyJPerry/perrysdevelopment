@@ -5770,12 +5770,12 @@ input[type=search],
 textarea.materialize-textarea {
   background-color: transparent;
   border: none;
-  border-bottom: 1px solid #9e9e9e;
+  border-bottom: 1px solid #29b6f6;
   border-radius: 0;
   outline: none;
   height: 3rem;
   width: 100%;
-  font-size: 1rem;
+  font-size: 1.5rem;
   margin: 0 0 20px 0;
   padding: 0;
   box-shadow: none;
@@ -5871,7 +5871,7 @@ input[type=tel]:focus:not([readonly]) + label,
 input[type=number]:focus:not([readonly]) + label,
 input[type=search]:focus:not([readonly]) + label,
 textarea.materialize-textarea:focus:not([readonly]) + label {
-  color: #26a69a;
+  color: #26a69a; 
 }
 
 input:not([type]).valid, input:not([type]):focus.valid,
@@ -5899,7 +5899,7 @@ input[type=search].valid,
 input[type=search]:focus.valid,
 textarea.materialize-textarea.valid,
 textarea.materialize-textarea:focus.valid {
-  border-bottom: 1px solid #4CAF50;
+  border-bottom: 1px solid #29b6f6;
   box-shadow: 0 1px 0 0 #4CAF50;
 }
 
@@ -6058,7 +6058,7 @@ textarea.materialize-textarea + label:after {
 }
 
 .input-field label {
-  color: #9e9e9e;
+  color: #fff;
   position: absolute;
   top: 0.8rem;
   left: 0;
@@ -6068,7 +6068,7 @@ textarea.materialize-textarea + label:after {
 }
 
 .input-field label:not(.label-icon).active {
-  font-size: 0.8rem;
+  font-size: 2rem;
   -webkit-transform: translateY(-140%);
           transform: translateY(-140%);
 }
@@ -6151,7 +6151,7 @@ textarea.materialize-textarea + label:after {
 /* Textarea */
 textarea {
   width: 100%;
-  height: 3rem;
+  height: 8rem;
   background-color: transparent;
 }
 

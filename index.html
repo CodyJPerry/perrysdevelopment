@@ -208,17 +208,26 @@
   <footer id="contact" class="page-footer">
     <div class="container">
       <h2 class="center">Let's Work Together</h2>
-       <form action="#">
+      <!-- Formspree used to send contact form to email-->
+       <form action="https://formspree.io/perrysdevelopment@gmail.com" method="POST">
          <!-- TODO: Add "Contact Info" Header for section -->
+         <div class="input-field"> <!-- "input-field" class wraps label and input for form animation -->
+            <i class="material-icons prefix">account_circle</i>
             <label for="name">Name:</label>
-              <input type="text" placeholder="John Doe">
-              <label for="email">Email:</label>
-                <input type="text" placeholder="user@example.com">
+            <input class="white-text validate" type="text" name="name" placeholder="Bruce Wayne">
+         </div>
+         <br>
+         <div class="input-field"> <!-- "input-field" class wraps label and input for form animation -->
+              <i class="material-icons prefix">email</i>
+              <label class="validate" for="email">Email:</label>
+              <input name="email" type="text" placeholder="user@example.com">
+         </div>
                 <br>
                 <br>
           <!-- TODO: Add "Project Details Header to section"-->
+              <div class="project-details">
                 <label>Type of Project</label>
-                   <input list="project" name="myProject">
+                   <input name="projectType" list="project" name="myProject" placeholder="Name your project">
                       <datalist id="project"> <!-- Must match project list value -->
                     <option value="Design">
                     <option value="Development">
@@ -227,25 +236,32 @@
 
                   <!-- Budget-->
                   <label>Estimated Budget</label>
-                   <input list="budget" name="myBudget">
+                   <input name="budget" list="budget" name="myBudget" placeholder="Select a price range">
                       <datalist id="budget"> <!-- Must match project list value -->
                     <option value="$0 - $500">
                     <option value="$501 - $1000">
                     <option value="$1001 - $2000">
                     <option value="$2000 - $5000">
                   </datalist>
+                  <br>
+                  <br>
                   <!-- Text area-->
+              <div>
+                  <label>Comments:</label>
                   <textarea name="comments" id="comments" cols="30" rows="10" 
                   placeholder="Please describe your project in as much detail as possible."></textarea>
+              </div>
                   <br>
-                  <button class="btn-large waves-effect waves-ripple waves-light orange">Submit</button>
+                  <button value="Send" class="btn-large waves-effect waves-ripple waves-light orange">Submit</button>
+              </div>
           </form>
           <div class="social-icons">
             <p class="center">Get in Touch!</p>
-            <p class="center"><i class="fa fa-behance medium" aria-hidden="true"></i>
-               <i class="fa fa-linkedin medium" aria-hidden="true"></i> 
-               <i class="fa fa-github medium" aria-hidden="true"></i>
-               <i class="fa fa-twitter medium" aria-hidden="true"></i>
+            <p class="center">
+               <a href="https://www.behance.net/perryc" target="_blank"><i class="fa fa-behance medium" aria-hidden="true"></i></a>
+               <a href="https://www.linkedin.com/in/codyperry24/" target="_blank"><i class="fa fa-linkedin medium" aria-hidden="true"></i></a>
+               <a href="https://github.com/cperry24" target="_blank"><i class="fa fa-github medium" aria-hidden="true"></i></a>
+               <a href="https://twitter.com/CodyPerry24" target="_blank"><i class="fa fa-twitter medium" aria-hidden="true"></i></a>
             </p>
           </div>
           <hr>

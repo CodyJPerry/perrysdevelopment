@@ -37,6 +37,10 @@
   font-family: 'Pacifico', cursive;
 }
 
+.social-icons a {
+  color: #29b6f6;
+}
+
 .social-icons i {
   padding-right: 20px;
 }
@@ -71,13 +75,50 @@
 
 /* Footer Styles */
 
+.footer-copyright {
+  font-size: 1.5rem;
+}
+
 .footer-copyright i {
-  vertical-align: bottom;
+  vertical-align: middle;
 }
 
 .page-footer h2 {
   color: #29b6f6;
   line-height: 60px;
+}
+
+/* Form Styles */
+
+form {
+  margin-top: 80px;
+}
+
+label {
+  font-size: 2rem;
+  color: #fff;
+}
+
+input {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+input-field.label {
+  font-size: 2rem;
+}
+
+textarea {
+  color: #fff;
+}
+
+i.material-icons.prefix {
+  margin-top: 6px;
+  color: #29b6f6;
+}
+
+.project-details {
+  margin-left: 3rem;
 }
 
 /* Media Queries */
